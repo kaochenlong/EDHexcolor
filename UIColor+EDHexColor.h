@@ -6,8 +6,6 @@
 //  Copyright (c) 2014年 高 見龍. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface UIColor (EDHexColor)
 
 + (UIColor *) colorWithHexString:(NSString *) hex;

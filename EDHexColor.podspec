@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Juiceware', :file => 'LICENSE' }
   s.author             = { "Eddie Kao" => "eddie@digik.com.tw" }
   s.social_media_url = "https://twitter.com/eddiekao"
-  s.source       = { :git => "https://github.com/kaochenlong/EDHexcolor.git" }
+  s.source       = { :git => "https://github.com/kaochenlong/EDHexcolor.git", :tag => '0.0.1' }
   s.source_files  = '*.{h,m}'
   s.requires_arc = true
 end
